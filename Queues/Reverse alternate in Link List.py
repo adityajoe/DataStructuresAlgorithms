@@ -1,3 +1,6 @@
+# Given a singly linked list, perform the following operations: extract all alternate nodes starting from the second node, reverse the extracted list, and append it at the end of the remaining list to obtain the final modified linked list.
+
+
 
 
 """
