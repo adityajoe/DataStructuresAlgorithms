@@ -1,4 +1,6 @@
 #Reverse array in Groups
+# Given an array arr[] of positive integers. Reverse every sub-array group of size k.
+# Note: If at any instance, the remaining elements are fewer than k, reverse all of them.
 
 class Solution:
     # Function to reverse every sub-array group of size k.
