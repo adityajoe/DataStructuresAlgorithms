@@ -1,0 +1,21 @@
+# You are given the head of a singly linked list. You need to reverse the linked list and return the head of the reversed list.
+
+"""
+class Node:
+    def __init__(self, val):
+        self.data = val
+        self.next = None
+"""
+
+class Solution:
+    def reverseList(self, head):
+        # Code here
+        curr = head
+        prev = None
+        while curr is not None:
+            new = curr.next
+            curr.next = prev
+            prev = curr
+            curr = new
+        return prev
+        
